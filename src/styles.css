@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #83c3c3;
+  color: #333;
+}
+
+.menu,
+.quiz,
+.endscreen {
+  width: 450px;
+  height: 600px;
+  border-radius: 15px;
+  background-color: #45377d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+}
+
+.menu button,
+.quiz button,
+.endscreen button {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 7px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #51418d;
+  color: #fff;
+}
+
+.greenBtn button {
+  background-color: #83c3c3;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h1.score {
+  color: #ff9478;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.endscreen button {
+  background-color: #ff9478;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu button {
+  background-color: #fcd457;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.options button:hover {
+  background-color: #ff9478;
+}
+
+.info {
+  position: absolute;
+  bottom: 20px;
+}
